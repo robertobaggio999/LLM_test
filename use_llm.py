@@ -1,6 +1,6 @@
 import os
 import csv
-from OPENAI_API_KEY import
+from openapi import
 
 PREPROCESSED_DIR = 'data_preprocessed'
 RESULTS_FILE = 'results.csv'
