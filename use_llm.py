@@ -1,6 +1,6 @@
 import os
 import csv
-from openai import
+from OPENAI_API_KEY import
 
 PREPROCESSED_DIR = 'data_preprocessed'
 RESULTS_FILE = 'results.csv'
