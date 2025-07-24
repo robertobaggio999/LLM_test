@@ -2,7 +2,6 @@ import os
 import csv
 from openai import
 
-
 PREPROCESSED_DIR = 'data_preprocessed'
 RESULTS_FILE = 'results.csv'
 
