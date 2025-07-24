@@ -1,6 +1,7 @@
 import os
 import csv
-from openai import OpenAI
+from openai import
+model: openai/gpt-4.1-nano-2025-04-14
 
 PREPROCESSED_DIR = 'data_preprocessed'
 RESULTS_FILE = 'results.csv'
