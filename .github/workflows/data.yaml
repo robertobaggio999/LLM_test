@@ -61,7 +61,7 @@ jobs:
       run: |
         pip install openai
 
-    - name: Analyze preprocessed data with OpenAI OPENAI_API_KEY
+    - name: Analyze preprocessed data with OPENAI_API_KEY
       env:
         OPENAI: ${{ secrets.OPENAI_API_KEY }}
       run: python use_llm.py
