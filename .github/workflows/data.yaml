@@ -59,7 +59,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install OPENAI_API_KEY
+        pip install OPENAI
 
     - name: Analyze preprocessed data with OPENAI_API_KEY
       env:
