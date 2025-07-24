@@ -1,7 +1,7 @@
 import os
 import csv
 from openai import
-model: openai/gpt-4.1-nano-2025-04-14
+
 
 PREPROCESSED_DIR = 'data_preprocessed'
 RESULTS_FILE = 'results.csv'
@@ -20,7 +20,7 @@ def find_single_json_in_preprocessed_dir():
         raise RuntimeError(f"Multiple JSON files found in {PREPROCESSED_DIR}, expected only one.")
     return os.path.join(PREPROCESSED_DIR, files[0])
 
-def analyze_json(file_path: str, model: str = "gpt-4o") -> str:
+def analyze_json(file_path: str, model: str = "gpt-4.1-nano-2025-04-14") -> str:
     with open(file_path, "r", encoding="utf-8") as f:
         data_str = f.read()
 
